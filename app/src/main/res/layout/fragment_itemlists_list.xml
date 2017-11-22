@@ -6,8 +6,7 @@
     android:name="com.david.shoppinglist.FragmentListOfLists"
     android:layout_width="match_parent"
     android:layout_height="match_parent"
-    android:layout_marginLeft="16dp"
-    android:layout_marginRight="16dp"
     app:layoutManager="LinearLayoutManager"
     tools:context="com.david.shoppinglist.FragmentListOfLists"
-    tools:listitem="@layout/fragment_itemlists" />
+    tools:listitem="@layout/fragment_itemlists"
+    android:background="@color/fondoApp"/>
